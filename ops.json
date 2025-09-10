@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "eccc7137-01a9-3af5-8174-d0be8e8ad6d7",
+    "name": "Tceuba",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

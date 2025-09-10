@@ -1,0 +1,4 @@
+permissions:
+  tpspawn.command.spawn:
+    description: Allows the player to use /tpspawn
+    default: true
