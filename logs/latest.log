@@ -1,152 +1,127 @@
-[22:06:11] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[22:06:11] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2495-HEAD@db12e9b (2025-09-04T01:08:56Z) for Minecraft 1.21.8
-[22:06:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:06:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[22:06:13] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[12:28:10] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[12:28:10] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.8-2495-HEAD@db12e9b (2025-09-04T01:08:56Z) for Minecraft 1.21.8
+[12:28:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:28:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[12:28:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - Veinminer (2.5.0)
-[22:06:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[12:28:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - TPspawn (1.1.0), voicechat (2.5.35)
-[22:06:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:06:19] [ServerMain/INFO]: Found new data pack file/TreeCapitator.v4.1.4.zip, loading it automatically
-[22:06:21] [ServerMain/INFO]: Loaded 1411 recipes
-[22:06:21] [ServerMain/INFO]: Loaded 1595 advancements
-[22:06:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[22:06:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 313.2ms
-[22:06:21] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[22:06:21] [Server thread/INFO]: Loading properties
-[22:06:22] [Server thread/INFO]: This server is running Purpur version 1.21.8-2495-HEAD@db12e9b (2025-09-04T01:08:56Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[22:06:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:06:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:06:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:06:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[22:06:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:06:22] [Server thread/INFO]: Default game type: SURVIVAL
-[22:06:22] [Server thread/INFO]: Generating keypair
-[22:06:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:06:22] [Server thread/INFO]: Using default channel type
-[22:06:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[22:06:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:06:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
-[22:06:23] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.5.0
-[22:06:23] [Server thread/INFO]: [Veinminer] Detected platform: Purpur
-[22:06:23] [Server thread/INFO]: [TPspawn] Loading server plugin TPspawn v1.1.0
-[22:06:23] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.5.0
-[22:06:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:06:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:06:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:06:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:06:23] [Server thread/INFO]: Preparing level "world"
-[22:06:24] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[22:06:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:06:24] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Time elapsed: 879 ms
-[22:06:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Time elapsed: 214 ms
-[22:06:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Time elapsed: 134 ms
-[22:06:25] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
-[22:06:25] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
-[22:06:26] [Server thread/INFO]: [voicechat] Compatibility version 18
-[22:06:26] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[22:06:26] [Server thread/INFO]: [TPspawn] Enabling TPspawn v1.1.0
-[22:06:26] [Server thread/INFO]: [TPspawn] TP Spawn has been enabled!
-[22:06:26] [Server thread/INFO]: [TPspawn] Successfully registered /spawn command.
-[22:06:26] [Server thread/INFO]: [TPspawn] Successfully registered /tpspawn command.
-[22:06:26] [Server thread/INFO]: [TPspawn] Configuration successfully loaded
-[22:06:26] [Server thread/INFO]: [TPspawn] Cooldown: 0.0 seconds
-[22:06:26] [Server thread/INFO]: [TPspawn] Play teleport sound: true
-[22:06:26] [Server thread/INFO]: [TPspawn] Configuration successfully loaded!
-[22:06:26] [Server thread/INFO]: [spark] Starting background profiler...
-[22:06:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[22:06:26] [Server thread/INFO]: Done preparing level "world" (2.518s)
-[22:06:26] [Server thread/INFO]: Running delayed init tasks
-[22:06:26] [Server thread/INFO]: Done (15.551s)! For help, type "help"
-[22:06:26] [Server thread/INFO]: [voicechat] Loading plugins
-[22:06:26] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[22:06:26] [Server thread/INFO]: [voicechat] Initializing plugins
-[22:06:26] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[22:06:26] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[22:06:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[22:06:35] [Server thread/INFO]: Reloading!
-[22:06:36] [Server thread/INFO]: Loaded 1411 recipes
-[22:06:36] [Server thread/INFO]: Loaded 1595 advancements
-[22:19:17] [User Authenticator #0/INFO]: UUID of player kim_jadoo is be316c4f-2084-3a1a-a4a1-8cfaeed7509f
-[22:19:18] [Server thread/INFO]: kim_jadoo joined the game
-[22:19:18] [Server thread/INFO]: kim_jadoo[/127.0.0.1:60833] logged in with entity id 96 at ([world]58.27360209614505, 75.0, 51.20184093489187)
-[22:20:47] [Server thread/INFO]: kim_jadoo has made the advancement [Monster Hunter]
-[22:27:24] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:27:24] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:27:43] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:27:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:28:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:28:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:28:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:28:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:09] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:09] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:28] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:28] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:28] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:28] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:48] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:29:49] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:30:51] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:30:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:30:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:30:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:30:52] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[22:32:39] [Server thread/INFO]: kim_jadoo lost connection: Disconnected
-[22:32:39] [Server thread/INFO]: [voicechat] Disconnecting client kim_jadoo
-[22:32:39] [Server thread/INFO]: kim_jadoo left the game
-[22:33:00] [Server thread/INFO]: Stopping the server
-[22:33:00] [Server thread/INFO]: Stopping server
-[22:33:00] [Server thread/INFO]: [TPspawn] Disabling TPspawn v1.1.0
-[22:33:00] [Server thread/INFO]: [TPspawn] TP Spawn has been disabled!
-[22:33:00] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.5.0
-[22:33:00] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
-[22:33:00] [Server thread/INFO]: Saving players
-[22:33:00] [Server thread/INFO]: Saving worlds
-[22:33:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saved 44 block chunks, 158 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:33:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:33:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:33:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:33:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:33:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:33:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:33:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:33:00] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:33:00] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:33:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:33:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:28:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:28:21] [ServerMain/INFO]: Loaded 1411 recipes
+[12:28:21] [ServerMain/INFO]: Loaded 1595 advancements
+[12:28:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[12:28:22] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 326.1ms
+[12:28:22] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[12:28:22] [Server thread/INFO]: Loading properties
+[12:28:22] [Server thread/INFO]: This server is running Purpur version 1.21.8-2495-HEAD@db12e9b (2025-09-04T01:08:56Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[12:28:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:28:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:28:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:28:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[12:28:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:28:23] [Server thread/INFO]: Default game type: SURVIVAL
+[12:28:23] [Server thread/INFO]: Generating keypair
+[12:28:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:28:23] [Server thread/INFO]: Using default channel type
+[12:28:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:28:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:28:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[12:28:23] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.5.0
+[12:28:23] [Server thread/INFO]: [Veinminer] Detected platform: Purpur
+[12:28:23] [Server thread/INFO]: [TPspawn] Loading server plugin TPspawn v1.1.0
+[12:28:23] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.5.0
+[12:28:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:28:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:28:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:28:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:28:24] [Server thread/INFO]: Preparing level "world"
+[12:28:24] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[12:28:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:28:25] [Server thread/INFO]: Preparing spawn area: 0%
+[12:28:25] [Server thread/INFO]: Preparing spawn area: 2%
+[12:28:25] [Server thread/INFO]: Time elapsed: 944 ms
+[12:28:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:28:26] [Server thread/INFO]: Preparing spawn area: 0%
+[12:28:26] [Server thread/INFO]: Time elapsed: 274 ms
+[12:28:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:28:26] [Server thread/INFO]: Preparing spawn area: 0%
+[12:28:26] [Server thread/INFO]: Time elapsed: 103 ms
+[12:28:26] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[12:28:26] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[12:28:26] [Server thread/INFO]: [voicechat] Compatibility version 18
+[12:28:26] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[12:28:26] [Server thread/INFO]: [TPspawn] Enabling TPspawn v1.1.0
+[12:28:26] [Server thread/INFO]: [TPspawn] TP Spawn has been enabled!
+[12:28:26] [Server thread/INFO]: [TPspawn] Successfully registered /spawn command.
+[12:28:26] [Server thread/INFO]: [TPspawn] Successfully registered /tpspawn command.
+[12:28:26] [Server thread/INFO]: [TPspawn] Configuration successfully loaded
+[12:28:26] [Server thread/INFO]: [TPspawn] Cooldown: 0.0 seconds
+[12:28:26] [Server thread/INFO]: [TPspawn] Play teleport sound: true
+[12:28:26] [Server thread/INFO]: [TPspawn] Configuration successfully loaded!
+[12:28:26] [Server thread/INFO]: [spark] Starting background profiler...
+[12:28:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[12:28:26] [Server thread/INFO]: Done preparing level "world" (2.771s)
+[12:28:26] [Server thread/INFO]: Running delayed init tasks
+[12:28:26] [Server thread/INFO]: Done (17.114s)! For help, type "help"
+[12:28:26] [Server thread/INFO]: [voicechat] Loading plugins
+[12:28:26] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:28:26] [Server thread/INFO]: [voicechat] Initializing plugins
+[12:28:26] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:28:26] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12:28:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[12:28:44] [User Authenticator #0/INFO]: UUID of player kim_jadoo is be316c4f-2084-3a1a-a4a1-8cfaeed7509f
+[12:28:45] [Server thread/INFO]: kim_jadoo joined the game
+[12:28:45] [Server thread/INFO]: kim_jadoo[/127.0.0.1:54968] logged in with entity id 933 at ([world]77.5, 66.0, 82.5)
+[12:36:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
+gameode create kim_jadoo<--[HERE]
+[12:36:35] [Server thread/INFO]: Unknown game mode: create
+...ode create kim_jadoo<--[HERE]
+[12:36:48] [Server thread/INFO]: Set kim_jadoo's game mode to Creative Mode
+[12:48:14] [Server thread/INFO]: kim_jadoo has completed the challenge [Serious Dedication]
+[12:51:57] [Server thread/INFO]: Unknown game mode: survivur
+...e survivur kim_jadoo<--[HERE]
+[12:52:08] [Server thread/INFO]: Unknown game mode: survivor
+...e survivor kim_jadoo<--[HERE]
+[12:52:24] [Server thread/INFO]: Unknown game mode: survirvo
+...e survirvo kim_jadoo<--[HERE]
+[12:53:00] [Server thread/INFO]: Set kim_jadoo's game mode to Survival Mode
+[12:58:39] [Server thread/INFO]: kim_jadoo lost connection: Disconnected
+[12:58:39] [Server thread/INFO]: [voicechat] Disconnecting client kim_jadoo
+[12:58:39] [Server thread/INFO]: kim_jadoo left the game
+[12:59:14] [Server thread/INFO]: Stopping the server
+[12:59:14] [Server thread/INFO]: Stopping server
+[12:59:14] [Server thread/INFO]: [TPspawn] Disabling TPspawn v1.1.0
+[12:59:14] [Server thread/INFO]: [TPspawn] TP Spawn has been disabled!
+[12:59:14] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.5.0
+[12:59:14] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.35
+[12:59:14] [Server thread/INFO]: Saving players
+[12:59:14] [Server thread/INFO]: Saving worlds
+[12:59:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 160 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:59:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 17 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:59:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:59:14] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:59:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:59:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:59:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:59:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:59:14] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:59:14] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:59:14] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:59:14] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
