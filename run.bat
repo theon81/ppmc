@@ -1,2 +1,2 @@
-java -Xms128M -Xmx4096M -jar purpur.jar nogui
+java -Xms128M -Xmx6G -jar purpur.jar nogui
 PAUSE
